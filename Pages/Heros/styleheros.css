@@ -2,4 +2,49 @@ body
 {
     background: url('../../Images/Fond.png');
 	color:white;
+	width: 900px;
+    margin: auto;
+}
+
+#InfoGeneral
+{
+	 margin-bottom: 0px;
+}
+
+#Bio
+{
+	display: inline-block;
+	width:400px;
+	
+}
+
+#Carac{
+	display:inline-block;
+	vertical-align:middle;
+}
+
+#Modele3D{
+	display: inline-block;
+	width:400px;
+
+}
+
+h1
+{
+	font-size: 3em;
+	margin-bottom: 0px;
+
+}
+
+
+h4
+{
+	margin-top:1px;
+	margin-left:15px;
+}
+
+article
+{
+    vertical-align: top;
+    text-align: justify;
 }
