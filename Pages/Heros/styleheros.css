@@ -8,12 +8,19 @@ body
 
 #InfoGeneral
 {
-	 margin-bottom: 0px;
+	background-color:#100c13;
+	border-radius: 10px;
+	border: double orange 1px;
+    border-image-source: url(bordure.png);
+    border-image-slice: 27;
+	border-image-width:20;
+	border-image-outset:5px 5px 5px 5px;
 }
 
 #Text{
 	display:inline-block;
 	vertical-align:top;
+	margin-left:15px;
 	text-align: justify;
 	width:400px;
 }
@@ -42,13 +49,15 @@ body
 
 #Modele3D{
 	display: inline-block;
+	text-align:right;
 	vertical-align:top;
-	width:400px;
-	margin-top:20px;
+	width:440px;
+	margin-top:5px;
 	margin-left:30px;
+	margin-bottom:5px;
 }
  #imgModele3D{
-	width:400px;
+	width: 440px;
  }
 
 
