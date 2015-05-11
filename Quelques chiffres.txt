@@ -1,13 +1,15 @@
 Vies batiments
 Fontaine => 5 * 347 la laisse pixel hp
 Fort => 26 *347
-Tours => 9*347
+Tours Fort=> 9*347
 Portail => 11*347
 Mur => 4*347
 
 Xp rapportés
-Tours => 400xp
+Tours Fort => 400xp (à vérifier)
+Tours Bations => 650xp
 Fort => 800xp
+Bastion => 1300xp
 Archer => 74xp
 Cac => 78xp
 Magicien => 75xp
