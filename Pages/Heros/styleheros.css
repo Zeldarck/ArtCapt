@@ -40,37 +40,42 @@ body
 	display:inline-block;
 	vertical-align:top;
 	margin-left:15px;
+	margin-top:5px;
 	text-align: justify;
 	width:400px;
 }
 
 #Text h1
-{
+{	
+
 	font-size: 3em;
-	margin-bottom: 1px;
-	margin-top:1px
-
-}
-
-#Text strong
-{
+	margin:auto;
+	text-align:center;
 	font-weight:bold;
 	text-decoration:underline;
-	text-align:center;
 
 }
+
 
 
 #Monde{
 	vertical-align:bottom;
-	margin-right:5px;
+	margin-right:3px;
 }
 
 
 #Text h4
 {
-	margin-top:1px;
+	margin-top:5px;
 	margin-left:15px;
+	text-align:center;
+}
+
+
+#Carac ul
+{
+	list-style-image: url('fleche.png');
+
 }
 
 
