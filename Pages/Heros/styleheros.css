@@ -8,14 +8,30 @@ body
 
 #InfoGeneral
 {
+	position:relative;
 	background-color:#100c13;
 	border-radius: 10px;
-	border: double orange 1px;
-    border-image-source: url(bordure.png);
-    border-image-slice: 27;
-	border-image-width:20;
-	border-image-outset:5px 5px 5px 5px;
+
+	z-index:2;
 }
+
+ #InfoGeneral:before {
+	position: absolute;
+	content:"";
+	z-index: 3;
+	top: 5px;
+	left: 5px;
+	right: 5px;
+	bottom: 5px;
+	border-radius: 10px;
+	border: double orange 1px;
+	border-image-source: url(borduretest.png);
+	border-image-slice: 27;
+	border-image-width: 20;
+	border-image-outset:10px 10px 10px 10px;
+}
+
+
 
 #Text{
 
@@ -36,10 +52,18 @@ body
 
 }
 
+#Text strong
+{
+	font-weight:bold;
+	text-decoration:underline;
+	text-align:center;
+
+}
+
+
 #Monde{
 	vertical-align:bottom;
 	margin-right:5px;
-
 }
 
 
@@ -55,16 +79,24 @@ body
 	text-align:right;
 	vertical-align:top;
 	width:440px;
-	margin-top:5px;
+	margin-top:2px;
 	margin-left:30px;
-	margin-bottom:5px;
-
-
+	margin-bottom:2px;
+	margin-right:0px;
+	
 }
+
+
  #imgModele3D{
+	border-radius: 10px;
+	width: 445px;
+	border-left: double orange 1px;
+    border-image-source: url(bordure2.png);
+    border-image-slice: 27;
+	border-image-width: 40;
+	border-image-outset:0px 0px 0px 30px;
+	}
+ 
 
-
-	width: 440px;
- }
 
 
