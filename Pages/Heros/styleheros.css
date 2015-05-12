@@ -78,7 +78,16 @@ body
 
 }
 
+#Titre
+{
+	margin-bottom:5px;
 
+}
+
+#Bio{
+margin-top:3px;
+
+}
 #Modele3D{
 	display: inline-block;
 	text-align:right;
