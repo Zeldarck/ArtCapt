@@ -24,7 +24,7 @@ body
 	right: 5px;
 	bottom: 5px;
 	border-radius: 10px;
-	border: double orange 1px;
+	border: double gray 1px;
 	border-image-source: url(borduretest.png);
 	border-image-slice: 27;
 	border-image-width: 20;
@@ -104,7 +104,7 @@ margin-top:3px;
  #imgModele3D{
 	border-radius: 10px;
 	width: 445px;
-	border-left: double orange 1px;
+	border-left: double gray 1px;
     border-image-source: url(bordure2.png);
     border-image-slice: 27 ;
 	border-image-width: 40;
