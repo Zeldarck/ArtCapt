@@ -10,7 +10,7 @@ body
 
     background: url('../../Images/Fond.png');
 	color:white;
-	width: 1024px;
+	width: 90%;
     margin: auto;
 }
 h1{
@@ -25,7 +25,7 @@ h1{
 	position:relative;
 	background-color:#100c13;
 	border-radius: 10px;
-	width: 900px;
+	width: 80%;
     margin: auto;
 }
 
@@ -55,7 +55,7 @@ h1{
 	margin-left:15px;
 	margin-top:5px;
 	text-align: justify;
-	width:400px;
+	width:40%;
 }
 
 #Text h1
@@ -87,7 +87,6 @@ h1{
 {
 	list-style-image: url('fleche.png');
 	
-	
 }
 
 #Titre
@@ -101,12 +100,13 @@ margin-top:3px;
 
 }
 #Modele3D{
+
 	display: inline-block;
 	text-align:right;
 	vertical-align:top;
-	width:440px;
+	width:40%;
 	margin-top:2px;
-	margin-left:30px;
+	margin-left:5%;
 	margin-bottom:2px;
 	margin-right:0px;
 	
@@ -115,7 +115,7 @@ margin-top:3px;
 
  #imgModele3D{
 	border-radius: 10px;
-	width: 445px;
+	width:100%;
 	border-left: double gray 1px;
     border-image-source: url(bordure2.png);
     border-image-slice: 27 ;
