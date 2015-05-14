@@ -2,7 +2,7 @@ body
 {
     background: url('../../Images/Fond.png');
 	color:white;
-	width: 900px;
+	width: 1024px;
     margin: auto;
 }
 
@@ -11,7 +11,8 @@ body
 	position:relative;
 	background-color:#100c13;
 	border-radius: 10px;
-
+	width: 900px;
+    margin: auto;
 	z-index:2;
 }
 
