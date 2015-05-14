@@ -1,10 +1,29 @@
+@font-face {
+    font-family: 'Philosopher-Regular';
+    src: url('../../Typo/Philosopher-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Philosopher-Bold';
+    src: url('../../Typo/Philosopher-Bold.ttf') format('truetype');
+}
+
+
 body
 {
+	font-family: 'Philosopher-Regular', Arial, serif;
+
     background: url('../../Images/Fond.png');
 	color:white;
 	width: 1024px;
     margin: auto;
 }
+h1, h2, h3, h4{
+
+	font-family: 'Philosopher-Bold', Arial, serif;
+
+}
+
 
 #InfoGeneral
 {
@@ -50,7 +69,6 @@ body
 	font-size: 3em;
 	margin:auto;
 	text-align:center;
-	font-weight:bold;
 	text-decoration:underline;
 
 }
