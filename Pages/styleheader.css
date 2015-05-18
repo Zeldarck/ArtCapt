@@ -1,0 +1,86 @@
+header
+{
+	font-family: 'Philosopher-Bold', 'Time New Roman', serif;
+	background: url('../Images/Divers/Banniere.png') no-repeat;
+	position:relative;
+	border-radius: 10px;
+    margin: auto;
+	margin-top:0px;
+	padding-top: 0px;
+	margin-bottom:50px;
+	width:1024px;
+	height:400px;
+
+}
+
+
+ header:before {
+	position: absolute;
+	content:"";
+	top: 5px;
+	left: 5px;
+	right: 5px;
+	bottom: 5px;
+	border-radius: 10px;
+	border: double gray 1px;
+	border-image-source: url(../Images/Bordures/Bordure_Banniere.png);
+	border-image-slice: 27;
+	border-image-width: 20;
+	border-image-outset:10px 10px 10px 10px;
+}
+
+
+header nav
+{
+    display: inline-block;
+    width:1024px;
+    text-align: center;
+
+}
+
+header nav ul
+{	vertical-align:bottom;
+	vertical-align:bottom;
+	position:relative;
+	top:315px;
+    list-style-type: none;
+}
+
+header nav li
+{
+    display: inline-block;
+    margin-right: 45px;
+}
+
+header nav p
+{
+    font-size: 2em;
+    color: #000000;
+    padding-bottom: 3px;
+    text-decoration: none;
+
+
+}
+
+#a1
+{
+	margin-left:125px;
+    font-size: 1.5em;
+    color: #446289;
+    padding-bottom: 3px;
+    text-decoration: none;
+
+}
+header nav a
+{
+    font-size: 2em;
+    color: #000000;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+header nav a:hover
+{
+    color: #446289;
+    border-bottom: 3px solid #446289;
+}

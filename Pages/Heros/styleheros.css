@@ -3,33 +3,32 @@
     src: url('../../Typo/Philosopher-Bold.ttf') format('truetype');
 }
 
+
+/*Généralités*/
 body
 {
 	font-family: 'Time New Roman', serif;
 	font-size: 1em;
-
-    background: url('../../Images/Fond.png');
+	background-color:#100c13;
+    background: url('../../Images/Divers/Fond.png');
 	color:white;
 	width: 1024px;
     margin: auto;
-}
-h1{
-
-	font-family: 'Philosopher-Bold', 'Time New Roman', serif;
-
+	text-align: justify;
 }
 
 
-#InfoGeneral
+section
 {
+
 	position:relative;
 	background-color:#100c13;
 	border-radius: 10px;
-	width: 900px;
     margin: auto;
+	margin-bottom:40px;
 }
 
- #InfoGeneral:before {
+ section:before {
 	position: absolute;
 	content:"";
 	top: 5px;
@@ -38,68 +37,98 @@ h1{
 	bottom: 5px;
 	border-radius: 10px;
 	border: double gray 1px;
-	border-image-source: url(borduretest.png);
+	border-image-source: url(../../Images/Bordures/Bordure_lambda.png);
 	border-image-slice: 27;
 	border-image-width: 20;
 	border-image-outset:10px 10px 10px 10px;
 }
 
+h1{
+
+	font-family: 'Philosopher-Bold', 'Time New Roman', serif;
+
+}
+
+/*souligné trait blanc*/
+
+.Souligne
+{
+	border: double gray 1px;
+    border-image-source: url(../../Images/Bordures/Souligne.png);
+    border-image-slice: 27 ;
+	border-image-width: 40;
+	padding-bottom:25px;
+	text-align:center;
+}
 
 
+
+
+
+
+/*Présentation du persos, avec son modéle 3D*/
+#InfoGeneral
+{
+	width: 900px;
+}
+
+/*Biographie et caracs*/
 #Text{
-
-
-
 	display:inline-block;
 	vertical-align:top;
 	margin-left:15px;
 	margin-top:5px;
-	text-align: justify;
+
 	width:400px;
 }
 
+
+
 #Text h1
 {	
-
 	font-size: 3em;
 	margin:auto;
 	text-align:center;
 
+	margin-bottom:0px;
+
 }
 
-
-
+/*icone du monde*/
 #Monde{
 	vertical-align:bottom;
 	margin-right:3px;
 }
 
-
+/*rôle*/
 #Text h4
 {
-	margin-top:5px;
+	margin-top:0px;
 	margin-left:15px;
+	margin-bottom:3px;
 	text-align:center;
 }
 
 
 #Carac ul
 {
-	list-style-image: url('fleche.png');
+	list-style-image: url('../../Images/Divers/Fleche_liste.png');
 	
 	
 }
 
+/*titre de la bio et bio*/
 #Titre
 {
+	margin-top:7px;
 	margin-bottom:5px;
-
 }
-
 #Bio{
-margin-top:3px;
-
+	margin-top:3px;
 }
+
+
+/*contenant de l'image 3D*/
 #Modele3D{
 	display: inline-block;
 	text-align:right;
@@ -112,18 +141,104 @@ margin-top:3px;
 	
 }
 
-
+/*image3D*/
  #imgModele3D{
 	border-radius: 10px;
 	width: 445px;
 	border-left: double gray 1px;
-    border-image-source: url(bordure2.png);
+    border-image-source: url(../../Images/Bordures/Separation_violet_gauche.png);
     border-image-slice: 27 ;
 	border-image-width: 40;
 	border-image-outset:0px 0px 0px 30px;
 
-	}
+}
+ 
+ 
+ /*Sorts et role*/
+ 
+ #Role
+ {
+	width:980px;
+	margin-left:22px;
+	padding-bottom:22px;
+	
+	
+	border: double gray 1px;
+    border-image-source: url(../../Images/Bordures/Separation_violet_bas.png);
+    border-image-slice: 27 ;
+	border-image-width: 40;
+ 
+ }
  
 
 
+.Sort
+{
+	width:980px;
+	margin-left:22px;
+	padding-bottom:22px;
+	border: double gray 1px;
+    border-image-source: url(../../Images/Bordures/Separation_violet_bas.png);
+    border-image-slice: 27 ;
+	border-image-width: 40;
+}
 
+#SortRole & #Sort;
+{
+	padding-bottom:100px;
+
+}
+
+
+
+.DescriptionSort
+{
+	display:inline-block;
+	width:400px;
+	height:120px;
+	vertical-align:center;
+	margin-left:15px;
+
+} 
+
+.DescriptionSort h2
+{
+	text-align:left;
+	font-size:1.3em;
+	padding-bottom:3px;
+	margin-bottom:3px;
+
+}
+
+.DescriptionSort p
+{
+	margin-top:3px;
+
+}
+
+.imgSort
+{
+	width:60px;
+
+
+}
+
+.ConseilSort
+{
+	border-radius: 10px;
+	background: url('../../Images/Divers/Fond_clair_ancre.png') no-repeat;
+	display:inline-block;
+	width:400px;
+	height:100px;
+	vertical-align:top;
+	margin-left:40px;
+	padding-left:10px;
+	color:#000000;
+
+} 
+
+
+
+.Titre{
+	text-align:center;
+}
