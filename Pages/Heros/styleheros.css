@@ -65,7 +65,15 @@ h1{
 	text-align:center;
 }
 
-
+/*sépration violette en dessous*/
+.Separation_bas
+{
+	padding-bottom:22px;
+	border: double gray 1px;
+    border-image-source: url(../../Images/Bordures/Separation_violet_bas.png);
+    border-image-slice: 27 ;
+	border-image-width: 40;
+}
 
 
 
@@ -164,23 +172,15 @@ h1{
  #Role
  {
 	width:980px;
-	padding-bottom:22px;
-	border: double gray 1px;
-    border-image-source: url(../../Images/Bordures/Separation_violet_bas.png);
-    border-image-slice: 27 ;
-	border-image-width: 40;
  }
  
 
+ 
 
 .Sort
 {
 	width:980px;
-	padding-bottom:22px;
-	border: double gray 1px;
-    border-image-source: url(../../Images/Bordures/Separation_violet_bas.png);
-    border-image-slice: 27 ;
-	border-image-width: 40;
+
 }
 
 .Sort:last-of-type
