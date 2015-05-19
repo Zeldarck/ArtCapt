@@ -72,6 +72,12 @@ section
 	margin: auto;
 }
 
+.Choix:hover
+{
+	width: 80px;
+	color: red;
+	background-color: purple;
+}
 
 section
 {
