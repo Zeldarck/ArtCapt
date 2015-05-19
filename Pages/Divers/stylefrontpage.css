@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'Philosopher-Bold';
+    src: url('../../Typo/Philosopher-Bold.ttf') format('truetype');
+}
+
+section
+{
+
+	position:relative;
+	background-color:#100c13;
+	border-radius: 10px;
+    margin: auto;
+	margin-bottom:40px;
+	border: double gray 1px;
+	border-image-source: url(../../Images/Bordures/Bordure_lambda.png);
+	border-image-slice: 27;
+	border-image-width: 20;
+	border-image-outset:5px 5px 5px 5px;
+	padding:11px;
+	padding-top:5px;
+	padding-bottom:5px;
+	
+	
+}
+
+
+body
+{
+	font-family: 'Time New Roman', serif;
+	font-size: 1em;
+	background-color:#100c13;
+    background: url('../../Images/Divers/Fond.png');
+	color:white;
+	width: 1024px;
+    margin: auto;
+}
+
+.marge{
+	margin-left:20px;
+}
+
+.Souligne
+{
+	border: double gray 1px;
+    border-image-source: url(../../Images/Bordures/Souligne.png);
+    border-image-slice: 27 ;
+	border-image-width: 40;
+	padding-bottom:25px;
+	text-align:center;
+}
+
+h1
+{
+	font-size:1.5em;
+}
+
+#Text
+{
+	font-size:1.2em;
+	vertical-align:top;
+	margin: auto;
+	width:800px;
+	background-color:#100c13;
+}
+
+#Text a
+{
+	color: gray;
+	text-decoration: none;
+}
+
+#Text a:hover
+{
+	color: red;
+}
+
+#Lien
+{
+
+}
+
+
+.Choix
+{
+	display: inline-block;
+	width: 400px;
+	border-radius: 10px;
+	border: double gray 1px;
+	border-image-source: url(../../Images/Bordures/Bordure_lambda.png);
+	border-image-slice: 27;
+	border-image-width: 20;
+	border-image-outset:10px 10px 10px 10px;
+	background-color:#100c13;
+}
+
+.Choix a
+{
+	text-decoration: none;
+	color: white;
+}
+
+.Choix a:hover
+{
+	color: red;
+}
+
+
+.Choix img
+{
+	width: 400px;
+}
+
+.Choix figcaption
+{
+	margin: auto;
+	padding: 5px 50px 5px 150px;
+
+}
+
+.Choix:hover
+{
+	transform:scale(1.1);
+	z-index:1;
+}
+
+
