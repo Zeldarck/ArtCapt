@@ -2,11 +2,12 @@ body
 {
 	font-family: 'Time New Roman', serif;
 	font-size: 1em;
-
-    background: url('../Images/Fond.png');
+	background-color:#100c13;
+    background: url('../Images/Divers/Fond.png');
 	color:white;
 	width: 1024px;
     margin: auto;
+	text-align: justify;
 }
 
 .pilou
@@ -14,7 +15,12 @@ body
 	width: 400px;
 	margin: 10px 50px 10px 50px;
 	display: inline-block;
-	border: 2px black solid;
+	border-radius: 10px;
+	border: double gray 1px;
+	border-image-source: url(../Images/Bordures/Bordure_lambda.png);
+	border-image-slice: 27;
+	border-image-width: 20;
+	border-image-outset:10px 10px 10px 10px;
 }
 
 .pilou img
@@ -31,7 +37,5 @@ body
 
 .pilou:hover
 {
-	background-color: black;
-	color: red;
-	border: 5px black solid;
+	border-image-repeat: repeat;
 }
