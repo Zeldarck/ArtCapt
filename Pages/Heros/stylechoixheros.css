@@ -51,16 +51,11 @@ h1{
 	width: 220px;
 }
 
-section
-{
-	width: 800px;
-	margin: auto;
-}
-
 #Champions
 {
 	display: inline-block;
 	margin: 100px 0px 0px 0px;
+	text-align: justify;
 }
 
 .Choix
@@ -104,7 +99,9 @@ section
 	border-image-outset:5px 5px 5px 5px;
 	padding:22px;
 	padding-top:5px;
-	padding-bottom:5px;	
+	padding-bottom:5px;
+	
+	
 }
 
 .Souligne
