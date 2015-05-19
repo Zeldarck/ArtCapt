@@ -56,6 +56,7 @@ section
 {
 	display: inline-block;
 	margin: 10px;
+	text-align: center;
 }
 
 .Choix img
@@ -64,10 +65,9 @@ section
 	height: 60px;
 }
 
-.Choix div
+.Choix h5
 {
 	position: relative;
-	left: 5px;
 	color: white;
 	margin: auto;
 }
@@ -81,4 +81,19 @@ section
 	border-radius: 10px;
     margin: auto;
 	margin-bottom:40px;
+	border: double gray 1px;
+	border-image-source: url(../../Images/Bordures/Bordure_lambda.png);
+	border-image-slice: 27;
+	border-image-width: 20;
+	border-image-outset:5px 5px 5px 5px;
+	
+	
 }
+
+section:not(:first-of-type)
+{
+	padding:22px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
