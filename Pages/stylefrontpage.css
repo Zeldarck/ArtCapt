@@ -7,8 +7,27 @@ body
 	color:white;
 	width: 1024px;
     margin: auto;
-	text-align: justify;
 }
+
+#Text
+{
+	vertical-align:top;
+	margin: auto;
+	width:800px;
+}
+
+#Text a
+{
+	color: gray;
+	text-decoration: none;
+}
+
+#Text a:hover
+{
+	color: red;
+}
+
+
 
 .Choix
 {
@@ -21,7 +40,21 @@ body
 	border-image-slice: 27;
 	border-image-width: 20;
 	border-image-outset:10px 10px 10px 10px;
+	background-color:#100c13;
 }
+
+.Choix a
+{
+	text-decoration: none;
+	color: white;
+}
+
+.Choix a:hover
+{
+	text-decoration: bold;
+	color: red;
+}
+
 
 .Choix img
 {
@@ -32,7 +65,7 @@ body
 {
 	margin: auto;
 	padding: 5px 50px 5px 150px;
-	
+
 }
 
 .Choix:hover
