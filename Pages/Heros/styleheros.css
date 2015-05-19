@@ -12,7 +12,7 @@ body
 	background-color:#100c13;
     background: url('../../Images/Divers/Fond.png');
 	color:white;
-	width: 1024px;
+
     margin: auto;
 	text-align: justify;
 }
@@ -20,7 +20,7 @@ body
 
 section
 {
-
+	width: 1024px;
 	position:relative;
 	background-color:#100c13;
 	border-radius: 10px;
