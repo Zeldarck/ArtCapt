@@ -1,0 +1,37 @@
+body
+{
+	font-family: 'Time New Roman', serif;
+	font-size: 1em;
+
+    background: url('../Images/Fond.png');
+	color:white;
+	width: 1024px;
+    margin: auto;
+}
+
+.pilou
+{
+	width: 400px;
+	margin: 10px 50px 10px 50px;
+	display: inline-block;
+	border: 2px black solid;
+}
+
+.pilou img
+{
+	width: 400px;
+}
+
+.pilou figcaption
+{
+	margin: auto;
+	padding: 5px 100px 5px 150px;
+	
+}
+
+.pilou:hover
+{
+	background-color: black;
+	color: red;
+	border: 5px black solid;
+}
