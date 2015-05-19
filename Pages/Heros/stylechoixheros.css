@@ -51,3 +51,32 @@ section
 	display: inline-block;
 	margin: 100px 0px 0px 0px;
 }
+
+#Valla
+{
+	background: url('../../Images/Sort/Valla_E.png');
+}
+
+section
+{
+
+	position:relative;
+	background-color:#100c13;
+	border-radius: 10px;
+    margin: auto;
+	margin-bottom:40px;
+}
+section:before {
+	position: absolute;
+	content:"";
+	top: 5px;
+	left: 5px;
+	right: 5px;
+	bottom: 5px;
+	border-radius: 10px;
+	border: double gray 1px;
+	border-image-source: url(../../Images/Bordures/Bordure_lambda.png);
+	border-image-slice: 27;
+	border-image-width: 20;
+	border-image-outset:10px 10px 10px 10px;
+}
