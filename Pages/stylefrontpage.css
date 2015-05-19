@@ -75,3 +75,7 @@ body
 	transform:scale(1.1);
 	z-index:1;
 }
+
+.marge{
+	margin-left:20px;
+}
