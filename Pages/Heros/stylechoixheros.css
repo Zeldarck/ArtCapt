@@ -85,9 +85,8 @@ section
 
 .Choix:hover
 {
-	width: 80px;
-	color: red;
-	background-color: purple;
+	transform:scale(1.1);
+	z-index:1;
 }
 
 section
@@ -103,15 +102,9 @@ section
 	border-image-slice: 27;
 	border-image-width: 20;
 	border-image-outset:5px 5px 5px 5px;
-	
-	
-}
-
-section:not(:first-of-type)
-{
 	padding:22px;
 	padding-top:5px;
-	padding-bottom:5px;
+	padding-bottom:5px;	
 }
 
 .Souligne
