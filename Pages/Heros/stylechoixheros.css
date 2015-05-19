@@ -13,7 +13,7 @@ body
 {
 	display: inline-block;
 	position: absolute;
-	right: 200px;
+	right: 0px;
 	margin: 10px 10px 10px 10px;
 	width: 220px;
 }
@@ -22,7 +22,14 @@ body
 {
 	width: 50px;
 	height: 50px;
+	margin: auto;
 }
+
+#LesRoles figcaption, #LesMondes figcaption
+{
+	padding: 5px 20px 5px 80px;
+}
+
 
 #LesMondes
 {
@@ -33,3 +40,8 @@ body
 	width: 220px;
 }
 
+section
+{
+	width: 1024px;
+	margin: auto;
+}
