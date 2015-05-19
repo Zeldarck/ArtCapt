@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'Philosopher-Bold';
+    src: url('../../Typo/Philosopher-Bold.ttf') format('truetype');
+}
+
+
 body
 {
 	font-family: 'Time New Roman', serif;
@@ -7,6 +13,11 @@ body
 	color:white;
 	width: 1024px;
     margin: auto;
+}
+
+h1{
+	font-family: 'Philosopher-Bold', 'Time New Roman', serif;
+	text-align: center;
 }
 
 #LesRoles
@@ -103,3 +114,12 @@ section:not(:first-of-type)
 	padding-bottom:5px;
 }
 
+.Souligne
+{
+	border: double gray 1px;
+    border-image-source: url(../../Images/Bordures/Souligne.png);
+    border-image-slice: 27 ;
+	border-image-width: 40;
+	padding-bottom:25px;
+	text-align:center;
+}
