@@ -17,14 +17,13 @@ body
 
 h1{
 	font-family: 'Philosopher-Bold', 'Time New Roman', serif;
-	text-align: center;
 }
 
 #LesRoles
 {
 	display: inline-block;
 	position: absolute;
-	right: 0px;
+	right: 50px;
 	margin: 10px 10px 10px 10px;
 	width: 220px;
 }
@@ -38,7 +37,7 @@ h1{
 
 #LesRoles figcaption, #LesMondes figcaption
 {
-	padding: 5px 20px 5px 80px;
+	text-align: center;
 }
 
 
@@ -46,7 +45,7 @@ h1{
 {
 	display: inline-block;
 	position: absolute;
-	left: 0px;
+	left: 50px;
 	margin: 10px 10px 10px 10px;
 	width: 220px;
 }
@@ -63,12 +62,14 @@ h1{
 	display: inline-block;
 	margin: 10px;
 	text-align: center;
+	width: 100px;
+	height: 100px;
 }
 
 .Choix img
 {
-	width: 60px;
-	height: 60px;
+	width: 80px;
+	height: 80px;
 }
 
 .Choix h5
