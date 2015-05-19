@@ -55,6 +55,7 @@ section
 .Choix
 {
 	display: inline-block;
+	margin: 10px;
 }
 
 .Choix img
@@ -66,7 +67,7 @@ section
 .Choix div
 {
 	position: relative;
-	left: 10px;
+	left: 5px;
 	color: white;
 	margin: auto;
 }
